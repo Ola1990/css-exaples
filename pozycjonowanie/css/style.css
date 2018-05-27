@@ -1,0 +1,76 @@
+/*seleftor znacznika*/
+p{
+    background-color:red;
+
+}
+/*selektor identyfikatora*/
+#container {
+    background-color: yellow;
+}
+/*selektor klasy*/
+.higlight {
+    background-color: green;
+}
+section > h2{
+    background-color: green;
+}
+section h2{
+    background-color: blue;
+}
+* {
+    color: darkorange;
+}
+
+p.content {
+    color: purple;
+}
+/*================*/
+h1 {
+    color: pink;
+}
+
+.header {
+        color: brown;
+    }
+
+    #main-header {
+        color: green;
+    }
+        /*=================*/
+        /*Pozycje*/
+
+     .block   {
+            background-color: green;
+            height: 500px;
+    }
+    .red {
+            background-color: red;
+            color: white;
+        }
+    .blue {
+            background-color: blue;
+            color: white;
+        }
+/* Pozycja relatywna*/
+
+/*.red {
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+
+/*pozycja absolutna*/
+/*.red {
+    position: absolute;
+left: 30px;
+top: 60px;
+}
+*/
+
+/*Pozycja zafiksowana*/
+
+.red {
+    position: fixed;
+    bottom: 0px;
+    margin: 0;
+}
